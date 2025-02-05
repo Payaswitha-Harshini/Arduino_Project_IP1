@@ -2,12 +2,12 @@
 
 class Flasher
 {
-	int ledPin;      // the number of the LED pin
+	int ledPin;      //LED pin
 	long OnTime;     // milliseconds of on-time
 	long OffTime;    // milliseconds of off-time
 
 	// These maintain the current state
-	int ledState;             		// ledState used to set the LED
+	int ledState;             		//ledState used to set the LED
 	unsigned long previousMillis;  	// will store last time LED was updated
 
   // Constructor - creates a Flasher 
